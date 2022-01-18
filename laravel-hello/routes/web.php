@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [ActController::class, 'indexAct']);
+
+Route::get('/act', [ActController::class, 'indexInstituto']);

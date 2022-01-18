@@ -10,4 +10,9 @@ class ActController extends Controller
     {
         return view('act');
     }
+
+    public function indexInstituto()
+    {
+        return view('instituto');
+    }
 }
